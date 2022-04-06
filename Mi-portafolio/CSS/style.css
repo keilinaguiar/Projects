@@ -45,7 +45,7 @@ body {
     color: #191c32;
     transition: ease-in .4s;
 }
-.main{
+#main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -53,7 +53,7 @@ body {
     width: 80vw;
     height: 80vw;
 }
-.main img{
+#main img{
     width: 600px;
 }
 h1{
@@ -75,14 +75,14 @@ box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
     background-color: white;
     box-shadow: none;
 }
-.about{
+#about{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     width: 100vw;
     align-items: center;
     height: 80vw;
 }
-.about > img{
+#about > img{
     width: 100%;
     grid-column: 1/5;
 } 
@@ -101,11 +101,11 @@ box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
     margin-top: 5px;
     margin-bottom: 2em;
 }
-.about p{
+#about p{
     margin-bottom: 1em;
     font-weight: 600;
 }
-.portfolio{
+#portfolio{
     width: 100vw;
     height: 80vw;
     background-color: #191c32;
@@ -118,7 +118,7 @@ padding: 5em;
     font-size: 2.5em;
     color: white;
 }
-.portfolio .container{
+#portfolio .container{
     width: 80vw;
     margin: 0 auto;
     display: flex;
