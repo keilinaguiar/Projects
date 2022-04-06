@@ -203,6 +203,10 @@ body > main > :nth-child(3) > :last-child {
     font-size: 16px;
 }
 }
-@media (min-width: 650px){
+@media (min-width: 1000px){
+  body > header > nav{
+    min-height: 100vmin;
+  }
+ }
 
-}
+
